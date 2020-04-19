@@ -1,0 +1,61 @@
+body {
+    font-size: 16px;
+    background-color: #68736b;
+    min-width: 290px;
+}
+
+#header-nav {
+    background-color: #6a8f91;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #fce29e;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #582963;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px #e2a3ff;
+}
+
+#nav-list {
+    background-color: gainsboro;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    background-color: whitesmoke;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 2px solid;
+}
+
+#main-content {
+    width: 95%;
+    margin-bottom: 5%;
+}
